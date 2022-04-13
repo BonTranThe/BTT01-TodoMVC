@@ -12,23 +12,25 @@
   <section>
     <p>todos</p>
     <form class="to-do"> 
-         <span class="tick-all shadow">❯</span>
-         <input type="text" class="input-work" autocomplete="off" placeholder="What needs to be done?" id="content" >
-         <button class="todo-button-add" type="submit">
-           <i class="fa fa-plus-square" aria-hidden="true"></i>
-         </button>
+      <span class="tick-all shadow">❯</span>
+      <input type="text" class="input-work" autocomplete="off" placeholder="What needs to be done?" id="content" >
+      <button class="todo-button-add" type="submit">
+        <i class="fa fa-plus-square" aria-hidden="true"></i>
+      </button>
     </form>
+
     <div class="todo-container">
       <ul class="todo-list"></ul>
     </div>
+
     <div class="detail hidden">
-        <span class="number-of-Work">0</span><span> item left</span>
-        <span class="button-view filter-btn">
-            <button type="button" class="btn-View btn-1 filter-btn checked active" value="All">All</button>
-            <button type="button" class="btn-View btn-2 filter-btn" value="Active">Active</button>
-            <button type="button" class="btn-View btn-3 filter-btn" value="Completed">Completed</button>
-        </span>
-        <span class="clear"><button type="button" class="btn remove btn-clear hidden">Clear Completed</button></span>
+      <span class="number-of-work">0</span><span> item left</span>
+      <span class="button-view filter-btn">
+        <button type="button" class="btn-view btn-1 filter-btn checked active" value="All">All</button>
+        <button type="button" class="btn-view btn-2 filter-btn" value="Active">Active</button>
+        <button type="button" class="btn-view btn-3 filter-btn" value="Completed">Completed</button>
+      </span>
+      <span class="clear"><button type="button" class="btn remove btn-clear hidden">Clear Completed</button></span>
     </div>
   </section>
   <script src="Js/todo.js"></script>
